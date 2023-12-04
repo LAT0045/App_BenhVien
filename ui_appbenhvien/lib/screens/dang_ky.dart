@@ -58,52 +58,106 @@ class _DangKyState extends State<DangKy> {
                           const SizedBox(
                             height: 30,
                           ),
-                          TextField(
-                            decoration: InputDecoration(
-                                hintText: 'Tên Đăng Nhập',
-                                border: OutlineInputBorder(
-                                    borderRadius: BorderRadius.circular(30.0),
-                                    borderSide: const BorderSide(
-                                        width: 0, style: BorderStyle.none)),
-                                fillColor: Colors.white,
-                                filled: true,
-                                contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),),
-                            style: const TextStyle(
-                                fontSize: 17, fontFamily: 'Comfortaa'),
-                          
+                          Container(
+                            decoration: ShapeDecoration(
+                            color: Colors.white,
+                              shape: RoundedRectangleBorder(
+                                side: const BorderSide(
+                                    width: 1, color: Color(0xFFE1E1E1)),
+                                borderRadius: BorderRadius.circular(30),
+                              ),
+                              shadows: const [
+                                BoxShadow(
+                                  color: Color(0x3F000000),
+                                  blurRadius: 4,
+                                  offset: Offset(0, 4),
+                                  spreadRadius: 0,
+                                )
+                              ],
+                            ),
+                            child: TextField(
+                              decoration: InputDecoration(
+                                  hintText: 'Tên Đăng Nhập',
+                                  border: OutlineInputBorder(
+                                      borderRadius: BorderRadius.circular(30.0),
+                                      borderSide: const BorderSide(
+                                          width: 0, style: BorderStyle.none)),
+                                  fillColor: Colors.white,
+                                  filled: true,
+                                  contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),),
+                              style: const TextStyle(
+                                  fontSize: 17, fontFamily: 'Comfortaa'),
+                            
+                            ),
                           ),
                           const SizedBox(
                             height: 30,
                           ),
-                          TextField(
-                            decoration: InputDecoration(
-                                hintText: 'Mật khẩu',
-                                border: OutlineInputBorder(
-                                    borderRadius: BorderRadius.circular(30.0),
-                                    borderSide: const BorderSide(
-                                        width: 0, style: BorderStyle.none)),
-                                fillColor: Colors.white,
-                                filled: true,
-                                contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),),
-                            style: const TextStyle(
-                                fontSize: 17, fontFamily: 'Comfortaa'),
+                          Container(
+                            decoration: ShapeDecoration(
+                            color: Colors.white,
+                              shape: RoundedRectangleBorder(
+                                side: const BorderSide(
+                                    width: 1, color: Color(0xFFE1E1E1)),
+                                borderRadius: BorderRadius.circular(30),
+                              ),
+                              shadows: const [
+                                BoxShadow(
+                                  color: Color(0x3F000000),
+                                  blurRadius: 4,
+                                  offset: Offset(0, 4),
+                                  spreadRadius: 0,
+                                )
+                              ],
+                            ),
+                            child: TextField(
+                              decoration: InputDecoration(
+                                  hintText: 'Mật khẩu',
+                                  border: OutlineInputBorder(
+                                      borderRadius: BorderRadius.circular(30.0),
+                                      borderSide: const BorderSide(
+                                          width: 0, style: BorderStyle.none)),
+                                  fillColor: Colors.white,
+                                  filled: true,
+                                  contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),),
+                              style: const TextStyle(
+                                  fontSize: 17, fontFamily: 'Comfortaa'),
+                            ),
                           ),
 
                           const SizedBox(
                             height: 30,
                           ),
-                          TextField(
-                            decoration: InputDecoration(
-                                hintText: 'Nhập Lại Mật khẩu',
-                                border: OutlineInputBorder(
-                                    borderRadius: BorderRadius.circular(30.0),
-                                    borderSide: const BorderSide(
-                                        width: 0, style: BorderStyle.none)),
-                                fillColor: Colors.white,
-                                filled: true,
-                                contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),),
-                            style: const TextStyle(
-                                fontSize: 17, fontFamily: 'Comfortaa'),
+                          Container(
+                            decoration: ShapeDecoration(
+                            color: Colors.white,
+                              shape: RoundedRectangleBorder(
+                                side: const BorderSide(
+                                    width: 1, color: Color(0xFFE1E1E1)),
+                                borderRadius: BorderRadius.circular(30),
+                              ),
+                              shadows: const [
+                                BoxShadow(
+                                  color: Color(0x3F000000),
+                                  blurRadius: 4,
+                                  offset: Offset(0, 4),
+                                  spreadRadius: 0,
+                                )
+                              ],
+                            ),
+                            child: TextField(
+                              decoration: InputDecoration(
+                                  hintText: 'Nhập Lại Mật khẩu',
+                                  border: OutlineInputBorder(
+                                      borderRadius: BorderRadius.circular(30.0),
+                                      borderSide: const BorderSide(
+                                          width: 0, style: BorderStyle.none)),
+                                  fillColor: Colors.white,
+                                  filled: true,
+                                  contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),),
+                              style: const TextStyle(
+                                  fontSize: 17, fontFamily: 'Comfortaa'),
+                            ),
                           ),
 
                          
